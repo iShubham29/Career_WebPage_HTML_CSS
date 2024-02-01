@@ -1,0 +1,180 @@
+*{
+    font-size: 18px;
+}
+
+body{
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    font-family: 'Playfair Display', Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x:hidden;
+    background-color: #faf5ff;
+}
+
+.Heading{
+    text-align: center;
+    color: darkblue;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+#banner{
+    width: 99%;
+    height: 350px;
+    padding: 10px, auto, 10px, auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#logo{
+    height: 20px;
+    width: 80px;
+    padding: 10px 5px 5px auto;
+    margin-left: 15px;
+}
+
+.navbar{
+    height: 30px;
+}
+
+h5{
+    color: rgb(35, 37, 66);
+    margin: 0 auto 0 16 px;
+}
+
+#about{
+    display: flex;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#about-heading{
+    text-decoration:underline;
+}
+
+#descript{
+    width: 50%;
+    padding-right: 12px;
+}
+
+#team{    
+    width: 50%;
+}
+
+#teamImg{
+    width: 100%;
+    border-radius: 8px;
+    max-height: 300px;
+}
+
+h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: saddlebrown;
+}
+
+.job-roles{
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 8px;
+}
+
+.apply{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contact{
+    max-width: 600px;
+}
+
+#footer{
+    background-color:#f3e8ff;
+    padding: 10px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+#more-info{
+    list-style: none;
+}
+
+#footer li{
+    display: inline;
+    font-weight: 600;
+}
+
+.info-link{
+    border: 2px solid rgb(104, 15, 15);
+    border-style:inset;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px 10px 2px 10px;
+}
+
+#job-table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.job-header-row th{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #d8b4fe;
+}
+
+.job-data-row td{
+    border: 1px solid black;
+    padding: 8px;
+    
+}
+
+#job-table tr:nth-child(even){
+    background-color: #f3e8ff;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Red Hat Display';
+}
+
+/*forms styling*/
+input{
+    padding: 4px;
+    font-size: 1 rem;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    border-style: groove;
+}
+
+select{
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#submit{
+    margin-top: 4px;
+    font-size: 0.85rem;
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#terms-and-con{
+    font-size: 0.6rem;
+    font-weight: 600;
+    
+}
+
+#terms-and-con input[type="checkbox"]{
+    cursor: pointer;
+}
+
+#resume-upload{
+    cursor: pointer;
+}
